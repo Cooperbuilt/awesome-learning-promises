@@ -16,3 +16,11 @@ you will know how to:
 - [ ] Convert a callback function to a promise
 - [ ] Handle data response from endpoints within a promise
 - [ ] Handle errors within promise chains
+
+## How it Works
+1. Open the codesanbox above
+2. Ensure you have your test runner open in the codesandbox
+3. Read through each exercise description and solve each exercise
+4. When your test goes "green", ensure it's not a false positive by mutating your test in some way
+5. Check the solution file to compare answers
+6. Best if done with a friend or group! Pass the keyboard and mob program it. 
