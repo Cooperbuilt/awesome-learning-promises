@@ -1,4 +1,4 @@
-# Awesome Learning™ - Learn Promises
+# Awesome Learning™ - Intro to Promises
 
 <a href="https://codesandbox.io/s/github/Cooperbuilt/awesome-learning-promises/tree/master/?fontsize=14&module=%2Fsrc%2Fexercises%2F1-intro-to-promises.test.js">
   <img alt="Edit async-patterns-promises" src="https://codesandbox.io/static/img/play-codesandbox.svg">
