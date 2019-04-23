@@ -95,7 +95,7 @@ test("getUserId is a promise that returns users when called with ids", () => {
   if they have one.
  
   🛠️ Write a function called getBasketId which takes in a user ID,
-  🛠️ calls newFetchUser with the user id, and  returns their
+  🛠️ calls newFetchUser with the user id, and resolves with their
   🛠️ basketId if they have one, and an empty string if not.
 `;
 
@@ -123,8 +123,8 @@ test("getBasketId returns empty string when no basket id exists", () => {
   🛠️ Fill in the getBasketItems function below
   🛠️ It should take in a basketId string, 
   🛠️ call the fetchBasket endpoint with basketId.
-  🛠️ If items exists on the response object, return the items array.
-  🛠️ If items doesn't exist on the response object, return an empty array
+  🛠️ If items exists on the response object, resolve with the items array.
+  🛠️ If items doesn't exist on the response object, resolve with an empty array
  
   💡 fetchBasket returns an object in this shape:
   {
@@ -156,7 +156,7 @@ test("getBasketItems catches an error in getBasketId when invalid basketId is pa
 📚 Exercise 6 - Putting it all together 📚
  
   🛠️ Fill in the getUserBasket function below. 
-  🛠️ This function should take a user id and return
+  🛠️ This function should take a user id and resolve with
   🛠️ an array of their basket items if they have any, an
   🛠 empty array if they dont, and catch errors specific to each call.
  
